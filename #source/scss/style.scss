@@ -40,6 +40,11 @@ a {
 .header__top {
   background-color: #303030;
 }
+.header__contacts::after {
+  content: "";
+  clear: both;
+  display: block;
+}
 .header__phone {
   line-height: 36px;
   padding: 5px 0 4px 0;
@@ -66,9 +71,33 @@ a {
 }
 //
 .header__content {
+  padding: 34px 0px 24px;
 }
+.header__content-inner {
+  display: flex;
+  justify-content: space-between;
+}
+
 .header__logo {
+  display: inline-block;
 }
 .header__menu {
+  & li + li {
+    padding-left: 10px;
+  }
+  & li {
+    display: inline-block;
+    & > a {
+      font-size: 16px;
+      color: #323232;
+      line-height: 36px;
+      padding: 0px 16px 0px;
+      border: 1px solid #ffc02200;
+      transition: all 0.4s;
+      &:hover {
+        border: 1px solid #ffc022;
+      }
+    }
+  }
 }
 //

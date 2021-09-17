@@ -465,6 +465,12 @@ a {
   background-color: #303030;
 }
 
+.header__contacts::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
 .header__phone {
   line-height: 36px;
   padding: 5px 0 4px 0;
@@ -489,4 +495,40 @@ a {
   color: #1b1b1b;
   background-color: #ffc222;
   padding: 5px 20px 4px 50px;
+}
+
+.header__content {
+  padding: 34px 0px 24px;
+}
+
+.header__content-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__logo {
+  display: inline-block;
+}
+
+.header__menu li + li {
+  padding-left: 10px;
+}
+.header__menu li {
+  display: inline-block;
+}
+.header__menu li > a {
+  font-size: 16px;
+  color: #323232;
+  line-height: 36px;
+  padding: 0px 16px 0px;
+  border: 1px solid #ffc02200;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.header__menu li > a:hover {
+  border: 1px solid #ffc022;
 }
