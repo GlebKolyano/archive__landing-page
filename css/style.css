@@ -545,6 +545,14 @@ a {
   letter-spacing: 0.25px;
   padding-left: 20px;
   padding-right: 30px;
+  position: relative;
+}
+.header__phone::before {
+  font-family: "icomoon";
+  content: "";
+  position: absolute;
+  left: 0;
+  color: #ffc222;
 }
 
 .header__email {
@@ -553,6 +561,14 @@ a {
   color: #cbcacb;
   letter-spacing: 0.25px;
   padding-left: 25px;
+  position: relative;
+}
+.header__email::before {
+  font-family: "icomoon";
+  content: "";
+  position: absolute;
+  left: 0;
+  color: #ffc222;
 }
 
 .header__btn {
@@ -562,6 +578,14 @@ a {
   color: #1b1b1b;
   background-color: #ffc222;
   padding: 5px 20px 4px 50px;
+  position: relative;
+}
+.header__btn::before {
+  font-family: "icomoon";
+  content: "";
+  position: absolute;
+  left: 22px;
+  color: #1b1b1b;
 }
 
 .header__content {
