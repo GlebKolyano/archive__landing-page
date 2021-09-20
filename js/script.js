@@ -1,5 +1,7 @@
 /******/ (function() { // webpackBootstrap
 var __webpack_exports__ = {};
-$(function () {});
+$(function () {
+  $('.slider__inner').slick();
+});
 /******/ })()
 ;

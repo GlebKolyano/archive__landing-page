@@ -626,14 +626,9 @@ a {
 
 #modal {
   display: none;
+  border-radius: 5px;
 }
 
-/*
-
-   Styles for animated modal
-   =========================
-
-*/
 /* Start state */
 .animated-modal {
   max-width: 550px;
@@ -676,4 +671,40 @@ a {
 .fancybox-slide--current .animated-modal p {
   -webkit-transition-delay: 0.3s;
           transition-delay: 0.3s;
+}
+
+.slider {
+  background: url(/img/slider_img_one.png) center/cover no-repeat;
+  min-height: 500px;
+}
+
+.slider__item-content {
+  text-align: center;
+  max-width: 665px;
+  padding-top: 110px;
+  margin: 0 auto;
+}
+
+.slider__title {
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0.5px;
+  color: #fff;
+  margin-bottom: 22px;
+  text-transform: uppercase;
+}
+
+.slider__text {
+  font-size: 14px;
+  line-height: 24px;
+  color: #d3d2d2;
+  margin-bottom: 50px;
+}
+
+.slider__btn > a {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.25px;
+  color: #fff;
+  border: 1px solid #f7c900;
 }
