@@ -220,6 +220,7 @@ a {
       right: 8px;
       top: 50%;
       transform: translateY(-50%);
+      color: #fff;
     }
   }
 }
@@ -266,4 +267,43 @@ a {
     right: 20px;
     transform: translateY(-50%);
   }
+}
+
+// about section
+.about {
+}
+.container {
+}
+.about__top {
+}
+.about__title-box {
+}
+.about__title {
+}
+.about__text {
+}
+.about__btn {
+}
+.about__items {
+}
+.about__item {
+}
+.about__item-title {
+}
+.about__item-text {
+}
+.about__item-btns {
+}
+.about__item-link {
+}
+.slider__btn_default {
+}
+.slider__btn_black {
+}
+.slider__btn_black > a {
+  color: #373636;
+  letter-spacing: 0.25px;
+  line-height: 24px;
+  font-size: 14px;
+  font-weight: 500;
 }

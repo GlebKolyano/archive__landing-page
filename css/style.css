@@ -725,6 +725,7 @@ a {
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+  color: #fff;
 }
 
 .slider__inner {
@@ -775,4 +776,12 @@ a {
   right: 20px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+}
+
+.slider__btn_black > a {
+  color: #373636;
+  letter-spacing: 0.25px;
+  line-height: 24px;
+  font-size: 14px;
+  font-weight: 500;
 }
