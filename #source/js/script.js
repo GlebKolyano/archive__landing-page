@@ -5,5 +5,6 @@ $(function(){
     nextArrow: '<button type="button" class="slick-btn slick-next"></button>',
     infinite: false,
   });
+  $('select').styler()
 });
 
