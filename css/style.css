@@ -1171,6 +1171,7 @@ label {
 .advantages {
   background: url(/img/advantages_img.png) center/cover no-repeat;
   min-height: 290px;
+  margin-bottom: -4px;
 }
 
 .advantages__inner {
@@ -1601,4 +1602,9 @@ input[type=submit] {
   background-color: #ffc222;
   font-weight: 400;
   border: none;
+}
+
+.icon-bars::before {
+  font-size: 26px;
+  display: none;
 }

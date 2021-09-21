@@ -1,0 +1,225 @@
+@media (max-width: 670px) {
+  .header__menu ul {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+  }
+  .header__menu li {
+    display: block;
+  }
+  .header__menu a {
+    display: block;
+    background-color: #ffc222;
+  }
+  .icon-bars::before {
+    font-size: 26px;
+    display: block;
+  }
+  .header__btn {
+    float: none;
+  }
+  .header__contacts {
+    text-align: center;
+  }
+}
+@media (max-width: 380px) {
+  .header__phone {
+    transform: translateX(7px);
+    margin-bottom: -10px;
+  }
+}
+
+@media (max-width: 760px) {
+  .slider .slick-btn {
+    display: none !important;
+  }
+}
+@media (max-width: 425px) {
+  .slider .slider__title {
+    font-size: 22px;
+  }
+  .slider .slider__text {
+    font-size: 16px;
+  }
+  .services__top {
+    display: block;
+    margin-bottom: 50px;
+  }
+  .services__btn {
+    margin-top: 20px;
+    text-align: center;
+  }
+}
+@media (max-width: 1170px) {
+  .services__items {
+    display: block;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .services__item-btns {
+    justify-content: center;
+  }
+  .advantages__inner {
+    display: block;
+    max-width: 60%;
+    margin: 0 auto;
+  }
+  .advantages__item {
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
+  .footer__info {
+    max-width: 375px;
+    margin-right: 0px;
+  }
+}
+@media (max-width: 768px) {
+  .services__items {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 400px) {
+  .services__item {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .services__title-box {
+    padding-left: 15px;
+  }
+  .services__title-box::before {
+    position: relative;
+    display: block;
+    margin-bottom: 15px;
+  }
+  .form__title-box {
+    padding-left: 15px;
+  }
+  .form__title-box::before {
+    position: relative;
+    display: block;
+    margin-bottom: 15px;
+  }
+  .news__box {
+    padding-left: 15px;
+  }
+  .news__box::before {
+    position: relative;
+    display: block;
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 760px) {
+  .form__box-inner {
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    max-width: 260px;
+  }
+  .form__box-left {
+    margin-right: 0px;
+  }
+  .form__box-right > button {
+    align-self: flex-start;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 700px) {
+  .advantages__inner {
+    display: block;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 425px) {
+  .advantages__inner {
+    display: block;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .news__slider {
+    flex: 0;
+    padding: 60px 30px;
+  }
+}
+@media (max-width: 325px) {
+  .advantages__inner {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+/* // */
+@media (max-width: 768px) {
+  .footer__content > .container {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .footer__content {
+    padding: 40px 0 50px;
+    min-height: 520px;
+  }
+  .footer__info {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 500px;
+  }
+  .footer__map {
+    text-align: center;
+    flex: 0;
+    height: 350px;
+    margin-bottom: 50px;
+    margin: 0 auto;
+    max-width: 800px;
+    width: 100%;
+  }
+}
+@media (max-width: 1020px) {
+  .news__inner {
+    flex-direction: column;
+  }
+  .news__slider {
+    max-width: 100%;
+    margin: 0 auto;
+    flex: none;
+    margin-bottom: 120px;
+  }
+  .news__blog {
+    flex: none;
+    max-width: 100%;
+  }
+  .news__blog-item {
+    max-width: 100%;
+  }
+  .news__inner > div + div {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 780px) {
+  .news__top {
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+  .news__box {
+    flex: 0;
+    margin-bottom: 15px;
+  }
+  .news__btn {
+    align-self: center;
+  }
+}
+@media (max-width: 420px) {
+  .news__blog-inner {
+    flex-direction: column;
+  }
+  .news__blog-img {
+    flex: 0 1 300px;
+  }
+  .news__blog-inner > a + a {
+    margin-left: 0px;
+  }
+}

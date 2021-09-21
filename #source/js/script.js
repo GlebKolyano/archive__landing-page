@@ -6,5 +6,8 @@ $(function(){
     infinite: false,
   });
   $('select').styler()
+  $('.header__btn-menu').on('click', function(){
+    $('.header__menu ul').slideToggle();
+  });
 });
 
