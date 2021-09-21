@@ -1298,16 +1298,72 @@ label {
 }
 
 .news__slider {
-  border: 1px solid #000;
   -webkit-box-flex: 0;
       -ms-flex: 0 1 550px;
           flex: 0 1 550px;
+  max-width: 550px;
+  padding: 60px 35px 50px 60px;
+  margin-bottom: 150px;
+  position: relative;
+  background-color: white;
+  -webkit-box-shadow: 0px 5px 15.36px 1px rgba(49, 49, 49, 0.2);
+          box-shadow: 0px 5px 15.36px 1px rgba(49, 49, 49, 0.2);
+}
+.news__slider::before {
+  content: "";
+  font-family: "icomoon";
+  position: absolute;
+  top: 0;
+  left: 60px;
+  font-size: 16px;
+  color: white;
+  width: 65px;
+  height: 35px;
+  background-color: #ffc222;
+  text-align: center;
+  line-height: 30px;
+}
+
+.news__slider-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.news-slider__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.news-slider__title {
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #242424;
+  margin-bottom: 20px;
+}
+
+.news-slider__text {
+  margin-bottom: 30px;
+  color: #5e5e5e;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+}
+
+.news-slider__author {
+  color: #252525;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
 }
 
 .news__blog {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 550px;
           flex: 0 1 550px;
+  max-width: 550px;
 }
 
 .news__blog-inner {
@@ -1319,7 +1375,7 @@ label {
           justify-content: space-between;
   text-align: left;
 }
-.news__blog-inner > div + div {
+.news__blog-inner > a + a {
   margin-left: 30px;
 }
 
@@ -1336,6 +1392,7 @@ label {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  position: relative;
 }
 
 .news__blog-img {
@@ -1376,4 +1433,32 @@ label {
 
 .news__blog-data {
   position: absolute;
+  background-color: #ffc222;
+  height: 55px;
+  width: 50px;
+  color: #fff;
+  text-align: center;
+  font-weight: 700px;
+  left: 10px;
+  padding-top: 30px;
+}
+
+.news__slider-inner > .slick-btn {
+  top: auto;
+  bottom: -140px;
+  border-color: transparent;
+}
+.news__slider-inner > .slick-next {
+  right: -35px;
+}
+.news__slider-inner > .slick-prev {
+  right: 30px;
+  left: auto;
+}
+.news__slider-inner > .slick-disabled {
+  border-color: rgba(0, 0, 0, 0.205);
+}
+
+.news__slider-inner .slick-disabled::before {
+  color: rgba(0, 0, 0, 0.315);
 }
