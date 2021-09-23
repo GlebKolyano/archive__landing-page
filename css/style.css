@@ -445,8 +445,8 @@ template {
 
 @font-face {
   font-family: "icomoon";
-  src: url("../../fonts/icomoon.eot?wfq3mh");
-  src: url("../../fonts/icomoon.eot?wfq3mh#iefix") format("embedded-opentype"), url("../../fonts/icomoon.ttf?wfq3mh") format("truetype"), url("../../fonts/icomoon.woff?wfq3mh") format("woff"), url("../../fonts/icomoon.svg?wfq3mh#icomoon") format("svg");
+  src: url("/landing-page/fonts/icomoon.eot?wfq3mh");
+  src: url("/landing-page/fonts/icomoon.eot?wfq3mh#iefix") format("embedded-opentype"), url("/landing-page/fonts/icomoon.ttf?wfq3mh") format("truetype"), url("/landing-page/fonts/icomoon.woff?wfq3mh") format("woff"), url("/landing-page/fonts/icomoon.svg?wfq3mh#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -674,7 +674,7 @@ a {
 }
 
 .slider {
-  background: url(../img/slider_img_one.png) center/cover no-repeat;
+  background: url(/landing-page/img/slider_img_one.png) center/cover no-repeat;
   min-height: 500px;
 }
 
@@ -918,7 +918,7 @@ a {
 }
 
 .about {
-  background: url(../img/about__img.png) center/cover no-repeat;
+  background: url(/landing-page/img/about__img.png) center/cover no-repeat;
   min-height: 300px;
   padding: 30px 0 40px 0;
   margin-bottom: 45px;
@@ -1169,7 +1169,7 @@ label {
 }
 
 .advantages {
-  background: url(../img/advantages_img.png) center/cover no-repeat;
+  background: url(/landing-page/img/advantages_img.png) center/cover no-repeat;
   min-height: 290px;
   margin-bottom: -4px;
 }
