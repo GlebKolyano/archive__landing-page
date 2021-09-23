@@ -387,7 +387,7 @@ a {
 
 // about section
 .about {
-  background: url(/img/about__img.png) center / cover no-repeat;
+  background: url(/../img/about__img.png) center / cover no-repeat;
   min-height: 300px;
 
   padding: 30px 0 40px 0;
@@ -615,7 +615,7 @@ label {
 }
 // advantages block
 .advantages {
-  background: url(/img/advantages_img.png) center / cover no-repeat;
+  background: url(../img/advantages_img.png) center / cover no-repeat;
   min-height: 290px;
   margin-bottom: -4px;
 }
