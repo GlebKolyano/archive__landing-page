@@ -951,7 +951,7 @@ a {
 
 .form__inner {
   min-height: 510px;
-  background: url(../img/form_img.png) bottom right no-repeat;
+  background: url(/landing-page/img/form_img.png) bottom right no-repeat;
 }
 
 .form__title-box {
