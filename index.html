@@ -14,7 +14,11 @@
   <link rel="stylesheet" href="css/media.css">
   <title>Landing Page</title>
 </head>
-
+<FilesMatch ".(ttf|otf|eot|woff|font.css)$">
+    <IfModule mod_headers.c>
+        Header set Access-Control-Allow-Origin "*"
+    </IfModule>
+</FilesMatch>
 <body>
   <div class="wrapper">
 <header class="header">
